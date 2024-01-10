@@ -259,13 +259,11 @@
 /* CTA section */
 .cta{
     background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(../Images/slider/cta-bg.jpg) fixed center center;
-    background-size: cover;
     padding: 100px;
 }
 .cta h3{
     color: #fff;
     font-size: 28px;
-    text-align: left;
     font-weight: 700;
 }
 .cta p{
@@ -371,7 +369,16 @@
     #slider{
         height: auto;
     }
-    
+    .cta h3{
+        color: #fff;
+        font-size: 28px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .cta p{
+        color: #fff;
+        text-align: center;
+    }
 }
 @media (max-width:992px) {
     #slider img{
