@@ -3,10 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+#header{
+   
+}
+.header-scrolled{
+    background: #d3cbcb;
+}
 .navbar{
    background-image: linear-gradient(to right,blue,violet);
 }
+
 .navbar-brand img{
     height: 52px;
     padding-left: 18px;
@@ -121,6 +127,10 @@
 #clients .img-fluid:hover{
     filter: none;
 }
+.clients .client-bx{
+    margin-bottom: 41px;
+    margin-top: 32px;
+}
 /* about us section */
 .section-title{
     text-align: center;
@@ -190,10 +200,94 @@
 .why-us .why-us-img{
 
 }
-   
+   /*skills section  */
+#skill{
+    padding-top: 50px;
+}
+#skill .progress {
+    height: 10px;
+    margin-bottom: 10px;
+}
+#skill  .skill{
+    font-size: 17px;
+    font-weight: 600;
+    color: #830c99;
+    font-style: italic;
+}
+#skill  h3{
+    font-size: 28px;
+    font-weight: 700;
+}
+/* service section */
+.service{
+    padding-top: 61px;
+}
+.service .row .bx{
+    margin-bottom: 32px;
+}
+.service .container h3{
+    font-size: 33px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+.service .container p{
+    text-align: center;
+    font-size: 15px;
+    margin: 35px 0px 35px 0;
+}
+.service-bg{
+    background: rgb(231 231 231);
+}
+.service  .icon-box{
+    background: white;
+    box-shadow: 0px 0 5px 0 #686868;
+    padding: 33px 21px;
+}
+.service .icon-box h4{
+    color: #200297;
+}
+.service  .icon-box i{
+    color: #6fb5e7;
+    font-size: 33px;
+}
+.service  .icon-box p{
+    text-align: left;
+}
 
-
-
+/* CTA section */
+.cta{
+       background-image: url(../Images/slider/cta-bg.jpg);
+    background-size: cover;
+    padding: 100px;
+}
+.cta h3{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+.cta p{
+    color: #fff;
+}
+.cta .cta-btn{
+    color: white;
+    text-decoration: none;
+    padding: 8px 11px 8px 11px;
+    border: 2px solid white;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    margin: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    background: cornflowerblue;
+}
+.cta .cta-btn:hover{
+    background: #007bff;
+    border: 2px solid cornflowerblue;
+}
+.cta .cta-button-container{
+    align-items: center;
+}
 
 
 @media screen and (min-width:320px) and (max-width:992px)  {
