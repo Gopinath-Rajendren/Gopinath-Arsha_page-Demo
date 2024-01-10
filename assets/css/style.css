@@ -59,19 +59,19 @@
     z-index: 1; 
 }
 #slider .container{
-    padding-top:55px ;
+    padding-top:50px ;
 }
 #slider h1{
-    margin: 24px 0 10px 0;
-    font-size: 48px;
-    font-weight: 650;
-    line-height: 49px;
+    margin: 18px 0 10px 0;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 55px;
     color: #fff;
 }
 #slider h2{
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 50px;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 #slider .get-started {
