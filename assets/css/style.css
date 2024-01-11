@@ -244,6 +244,8 @@
     background: white;
     box-shadow: 0px 0 5px 0 #686868;
     padding: 33px 21px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
 }
 .service .icon-box h4{
     color: #200297;
@@ -300,6 +302,7 @@
     position: relative;
     border-radius: 10px;
     box-shadow: 0 0 5px 1px #96aedc;
+    border: 1px solid #a985c1;
 }
 .team-bg{
     background: #eeeeee;
@@ -381,15 +384,15 @@
 #contact .info{
     box-shadow: 0 0 8px 0;
     padding: 31px;
-    border-bottom: 3px solid blue;
-    border-top: 3px solid blue;
+    border-bottom: 1px solid blue;
+    border-top: 1px solid blue;
     width: 100%;
 }
 #contact .form{
     box-shadow: 0 0 8px 0;
     padding: 31px;
-    border-bottom: 3px solid blue;
-    border-top: 3px solid blue;
+    border-bottom: 1px solid blue;
+    border-top: 1px solid blue;
      width: 100%;
 }
 #contact .info .address i{
@@ -462,15 +465,35 @@
     margin-left: 70px;
     margin-bottom: 30px;
 }
-#contact .info .address{
-
+.form h2{
+    font-size: 29px;
+    text-align: center;
+    font-weight: bold;
 }
-#contact .info .email{
-
+.form .button{
+    font-size: 16px;
+    font-weight: 500;
+    background: aquamarine;
+    height: 30px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    text-align: inherit;
+    margin: auto;
 }
-#contact .info .phone{
-
+.form .button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
+.form .button:hover{
+    background: #007bff;
+    color: white;
+}
+
+
 
 
 
