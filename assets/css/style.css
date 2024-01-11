@@ -69,7 +69,7 @@
 }
 #slider h1{
     margin: 18px 0 10px 0;
-    font-size: 46px;
+    font-size: 40px;
     font-weight: 600;
     line-height: 55px;
     color: #fff;
@@ -197,12 +197,17 @@
     word-spacing: 2px;
     color: #007bff;
 }
+.why-us .content h3{
+    padding-top: 41px;
+    padding-bottom: 5px;
+}
 .why-us .why-us-img{
 
 }
    /*skills section  */
 #skill{
     padding-top: 50px;
+    padding-bottom: 40px;
 }
 #skill .progress {
     height: 10px;
@@ -214,9 +219,14 @@
     color: #830c99;
     font-style: italic;
 }
+#skill .content p{
+    padding-top: 12px;
+    padding-bottom: 20px;
+}
 #skill  h3{
     font-size: 28px;
     font-weight: 700;
+    padding-top: 30px;
 }
 /* service section */
 .service{
@@ -235,7 +245,7 @@
 .service .container p{
     text-align: center;
     font-size: 15px;
-    margin: 35px 0px 35px 0;
+    margin: 35px 0px 85px 0;
 }
 .service-bg{
     background: rgb(231 231 231);
